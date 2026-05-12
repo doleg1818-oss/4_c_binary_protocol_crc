@@ -1,0 +1,11 @@
+# ninja log v7
+6	151	8002680768200544	CMakeFiles/example_binary_protocol.dir/src/crc8.c.obj	67176778bdd61219
+10	162	8002680768240558	CMakeFiles/example_binary_protocol.dir/src/protocol_parser.c.obj	12e5242af0359787
+15	166	8002680768290579	CMakeFiles/example_binary_protocol.dir/src/protocol.c.obj	9a3cedb9a1f9d982
+2	172	8002680768160548	CMakeFiles/example_binary_protocol.dir/example/main.c.obj	dc74aa9e8d3553f4
+25	173	8002680768356064	CMakeFiles/test_binary_protocol.dir/src/crc8.c.obj	ad99a24106359453
+29	175	8002680768425665	CMakeFiles/test_binary_protocol.dir/src/protocol_parser.c.obj	3f8e6cd0d19c2d03
+37	178	8002680768518710	CMakeFiles/test_binary_protocol.dir/src/protocol.c.obj	edfcac47e3b6fc92
+4	110	8002681163309193	CMakeFiles/test_binary_protocol.dir/tests/test_protocol.c.obj	a8640b938a0df3c2
+8	141	8002681163309193	example_binary_protocol.exe	caa5da1e22207fe8
+111	226	8002681164392759	test_binary_protocol.exe	aca49fedffc6993c

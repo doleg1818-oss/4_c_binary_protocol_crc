@@ -1,0 +1,4 @@
+D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/example_binary_protocol.dir
+D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/test_binary_protocol.dir
+D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/edit_cache.dir
+D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/rebuild_cache.dir
