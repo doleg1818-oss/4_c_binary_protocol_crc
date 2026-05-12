@@ -4,14 +4,14 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
       The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
@@ -29,6 +29,8 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -42,125 +44,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/msys64/ucrt64/bin/"
     searched_directories:
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/ninja-build.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/ninja-build.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/ninja-build"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/ninja.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/ninja.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/ninja"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/samu.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/samu.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/samu"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja-build.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja-build.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja-build"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/samu.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/samu.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/samu"
-      - "C:/Windows/System32/ninja-build.com"
-      - "C:/Windows/System32/ninja-build.exe"
-      - "C:/Windows/System32/ninja-build"
-      - "C:/Windows/System32/ninja.com"
-      - "C:/Windows/System32/ninja.exe"
-      - "C:/Windows/System32/ninja"
-      - "C:/Windows/System32/samu.com"
-      - "C:/Windows/System32/samu.exe"
-      - "C:/Windows/System32/samu"
-      - "C:/Windows/ninja-build.com"
-      - "C:/Windows/ninja-build.exe"
-      - "C:/Windows/ninja-build"
-      - "C:/Windows/ninja.com"
-      - "C:/Windows/ninja.exe"
-      - "C:/Windows/ninja"
-      - "C:/Windows/samu.com"
-      - "C:/Windows/samu.exe"
-      - "C:/Windows/samu"
-      - "C:/Windows/System32/wbem/ninja-build.com"
-      - "C:/Windows/System32/wbem/ninja-build.exe"
-      - "C:/Windows/System32/wbem/ninja-build"
-      - "C:/Windows/System32/wbem/ninja.com"
-      - "C:/Windows/System32/wbem/ninja.exe"
-      - "C:/Windows/System32/wbem/ninja"
-      - "C:/Windows/System32/wbem/samu.com"
-      - "C:/Windows/System32/wbem/samu.exe"
-      - "C:/Windows/System32/wbem/samu"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu"
-      - "C:/Windows/System32/OpenSSH/ninja-build.com"
-      - "C:/Windows/System32/OpenSSH/ninja-build.exe"
-      - "C:/Windows/System32/OpenSSH/ninja-build"
-      - "C:/Windows/System32/OpenSSH/ninja.com"
-      - "C:/Windows/System32/OpenSSH/ninja.exe"
-      - "C:/Windows/System32/OpenSSH/ninja"
-      - "C:/Windows/System32/OpenSSH/samu.com"
-      - "C:/Windows/System32/OpenSSH/samu.exe"
-      - "C:/Windows/System32/OpenSSH/samu"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/ninja-build.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/ninja-build.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/ninja-build"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/ninja.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/ninja.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/ninja"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/samu.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/samu.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/samu"
-      - "C:/Program Files/PuTTY/ninja-build.com"
-      - "C:/Program Files/PuTTY/ninja-build.exe"
-      - "C:/Program Files/PuTTY/ninja-build"
-      - "C:/Program Files/PuTTY/ninja.com"
-      - "C:/Program Files/PuTTY/ninja.exe"
-      - "C:/Program Files/PuTTY/ninja"
-      - "C:/Program Files/PuTTY/samu.com"
-      - "C:/Program Files/PuTTY/samu.exe"
-      - "C:/Program Files/PuTTY/samu"
-      - "C:/Program Files/Git/cmd/ninja-build.com"
-      - "C:/Program Files/Git/cmd/ninja-build.exe"
-      - "C:/Program Files/Git/cmd/ninja-build"
-      - "C:/Program Files/Git/cmd/ninja.com"
-      - "C:/Program Files/Git/cmd/ninja.exe"
-      - "C:/Program Files/Git/cmd/ninja"
-      - "C:/Program Files/Git/cmd/samu.com"
-      - "C:/Program Files/Git/cmd/samu.exe"
-      - "C:/Program Files/Git/cmd/samu"
-      - "C:/Program Files/CMake/bin/ninja-build.com"
-      - "C:/Program Files/CMake/bin/ninja-build.exe"
-      - "C:/Program Files/CMake/bin/ninja-build"
-      - "C:/Program Files/CMake/bin/ninja.com"
-      - "C:/Program Files/CMake/bin/ninja.exe"
-      - "C:/Program Files/CMake/bin/ninja"
-      - "C:/Program Files/CMake/bin/samu.com"
-      - "C:/Program Files/CMake/bin/samu.exe"
-      - "C:/Program Files/CMake/bin/samu"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/ninja-build.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/ninja-build.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/ninja-build"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/ninja.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/ninja.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/ninja"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/samu.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/samu.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/samu"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/ninja.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/ninja.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/ninja"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/samu.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/samu.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/samu"
       - "C:/msys64/ucrt64/bin/ninja-build.com"
       - "C:/msys64/ucrt64/bin/ninja-build.exe"
       - "C:/msys64/ucrt64/bin/ninja-build"
@@ -168,360 +52,32 @@ events:
     found: "C:/msys64/ucrt64/bin/ninja.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt:3 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER"
-    description: "C compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "cc"
-      - "gcc"
-      - "cl"
-      - "bcc"
-      - "xlc"
-      - "icx"
-      - "clang"
-    candidate_directories:
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/msys64/ucrt64/bin/"
-    searched_directories:
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/cc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/cc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/cc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/cl.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/cl.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/cl"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bcc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bcc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bcc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/xlc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/xlc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/xlc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/icx.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/icx.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/icx"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/clang.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/clang.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/clang"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang"
-      - "C:/Windows/System32/cc.com"
-      - "C:/Windows/System32/cc.exe"
-      - "C:/Windows/System32/cc"
-      - "C:/Windows/System32/gcc.com"
-      - "C:/Windows/System32/gcc.exe"
-      - "C:/Windows/System32/gcc"
-      - "C:/Windows/System32/cl.com"
-      - "C:/Windows/System32/cl.exe"
-      - "C:/Windows/System32/cl"
-      - "C:/Windows/System32/bcc.com"
-      - "C:/Windows/System32/bcc.exe"
-      - "C:/Windows/System32/bcc"
-      - "C:/Windows/System32/xlc.com"
-      - "C:/Windows/System32/xlc.exe"
-      - "C:/Windows/System32/xlc"
-      - "C:/Windows/System32/icx.com"
-      - "C:/Windows/System32/icx.exe"
-      - "C:/Windows/System32/icx"
-      - "C:/Windows/System32/clang.com"
-      - "C:/Windows/System32/clang.exe"
-      - "C:/Windows/System32/clang"
-      - "C:/Windows/cc.com"
-      - "C:/Windows/cc.exe"
-      - "C:/Windows/cc"
-      - "C:/Windows/gcc.com"
-      - "C:/Windows/gcc.exe"
-      - "C:/Windows/gcc"
-      - "C:/Windows/cl.com"
-      - "C:/Windows/cl.exe"
-      - "C:/Windows/cl"
-      - "C:/Windows/bcc.com"
-      - "C:/Windows/bcc.exe"
-      - "C:/Windows/bcc"
-      - "C:/Windows/xlc.com"
-      - "C:/Windows/xlc.exe"
-      - "C:/Windows/xlc"
-      - "C:/Windows/icx.com"
-      - "C:/Windows/icx.exe"
-      - "C:/Windows/icx"
-      - "C:/Windows/clang.com"
-      - "C:/Windows/clang.exe"
-      - "C:/Windows/clang"
-      - "C:/Windows/System32/wbem/cc.com"
-      - "C:/Windows/System32/wbem/cc.exe"
-      - "C:/Windows/System32/wbem/cc"
-      - "C:/Windows/System32/wbem/gcc.com"
-      - "C:/Windows/System32/wbem/gcc.exe"
-      - "C:/Windows/System32/wbem/gcc"
-      - "C:/Windows/System32/wbem/cl.com"
-      - "C:/Windows/System32/wbem/cl.exe"
-      - "C:/Windows/System32/wbem/cl"
-      - "C:/Windows/System32/wbem/bcc.com"
-      - "C:/Windows/System32/wbem/bcc.exe"
-      - "C:/Windows/System32/wbem/bcc"
-      - "C:/Windows/System32/wbem/xlc.com"
-      - "C:/Windows/System32/wbem/xlc.exe"
-      - "C:/Windows/System32/wbem/xlc"
-      - "C:/Windows/System32/wbem/icx.com"
-      - "C:/Windows/System32/wbem/icx.exe"
-      - "C:/Windows/System32/wbem/icx"
-      - "C:/Windows/System32/wbem/clang.com"
-      - "C:/Windows/System32/wbem/clang.exe"
-      - "C:/Windows/System32/wbem/clang"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
-      - "C:/Windows/System32/OpenSSH/cc.com"
-      - "C:/Windows/System32/OpenSSH/cc.exe"
-      - "C:/Windows/System32/OpenSSH/cc"
-      - "C:/Windows/System32/OpenSSH/gcc.com"
-      - "C:/Windows/System32/OpenSSH/gcc.exe"
-      - "C:/Windows/System32/OpenSSH/gcc"
-      - "C:/Windows/System32/OpenSSH/cl.com"
-      - "C:/Windows/System32/OpenSSH/cl.exe"
-      - "C:/Windows/System32/OpenSSH/cl"
-      - "C:/Windows/System32/OpenSSH/bcc.com"
-      - "C:/Windows/System32/OpenSSH/bcc.exe"
-      - "C:/Windows/System32/OpenSSH/bcc"
-      - "C:/Windows/System32/OpenSSH/xlc.com"
-      - "C:/Windows/System32/OpenSSH/xlc.exe"
-      - "C:/Windows/System32/OpenSSH/xlc"
-      - "C:/Windows/System32/OpenSSH/icx.com"
-      - "C:/Windows/System32/OpenSSH/icx.exe"
-      - "C:/Windows/System32/OpenSSH/icx"
-      - "C:/Windows/System32/OpenSSH/clang.com"
-      - "C:/Windows/System32/OpenSSH/clang.exe"
-      - "C:/Windows/System32/OpenSSH/clang"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cc.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cc.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cc"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/gcc"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cl.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cl.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/cl"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bcc.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bcc.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bcc"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/xlc.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/xlc.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/xlc"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/icx.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/icx.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/icx"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/clang.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/clang.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/clang"
-      - "C:/Program Files/PuTTY/cc.com"
-      - "C:/Program Files/PuTTY/cc.exe"
-      - "C:/Program Files/PuTTY/cc"
-      - "C:/Program Files/PuTTY/gcc.com"
-      - "C:/Program Files/PuTTY/gcc.exe"
-      - "C:/Program Files/PuTTY/gcc"
-      - "C:/Program Files/PuTTY/cl.com"
-      - "C:/Program Files/PuTTY/cl.exe"
-      - "C:/Program Files/PuTTY/cl"
-      - "C:/Program Files/PuTTY/bcc.com"
-      - "C:/Program Files/PuTTY/bcc.exe"
-      - "C:/Program Files/PuTTY/bcc"
-      - "C:/Program Files/PuTTY/xlc.com"
-      - "C:/Program Files/PuTTY/xlc.exe"
-      - "C:/Program Files/PuTTY/xlc"
-      - "C:/Program Files/PuTTY/icx.com"
-      - "C:/Program Files/PuTTY/icx.exe"
-      - "C:/Program Files/PuTTY/icx"
-      - "C:/Program Files/PuTTY/clang.com"
-      - "C:/Program Files/PuTTY/clang.exe"
-      - "C:/Program Files/PuTTY/clang"
-      - "C:/Program Files/Git/cmd/cc.com"
-      - "C:/Program Files/Git/cmd/cc.exe"
-      - "C:/Program Files/Git/cmd/cc"
-      - "C:/Program Files/Git/cmd/gcc.com"
-      - "C:/Program Files/Git/cmd/gcc.exe"
-      - "C:/Program Files/Git/cmd/gcc"
-      - "C:/Program Files/Git/cmd/cl.com"
-      - "C:/Program Files/Git/cmd/cl.exe"
-      - "C:/Program Files/Git/cmd/cl"
-      - "C:/Program Files/Git/cmd/bcc.com"
-      - "C:/Program Files/Git/cmd/bcc.exe"
-      - "C:/Program Files/Git/cmd/bcc"
-      - "C:/Program Files/Git/cmd/xlc.com"
-      - "C:/Program Files/Git/cmd/xlc.exe"
-      - "C:/Program Files/Git/cmd/xlc"
-      - "C:/Program Files/Git/cmd/icx.com"
-      - "C:/Program Files/Git/cmd/icx.exe"
-      - "C:/Program Files/Git/cmd/icx"
-      - "C:/Program Files/Git/cmd/clang.com"
-      - "C:/Program Files/Git/cmd/clang.exe"
-      - "C:/Program Files/Git/cmd/clang"
-      - "C:/Program Files/CMake/bin/cc.com"
-      - "C:/Program Files/CMake/bin/cc.exe"
-      - "C:/Program Files/CMake/bin/cc"
-      - "C:/Program Files/CMake/bin/gcc.com"
-      - "C:/Program Files/CMake/bin/gcc.exe"
-      - "C:/Program Files/CMake/bin/gcc"
-      - "C:/Program Files/CMake/bin/cl.com"
-      - "C:/Program Files/CMake/bin/cl.exe"
-      - "C:/Program Files/CMake/bin/cl"
-      - "C:/Program Files/CMake/bin/bcc.com"
-      - "C:/Program Files/CMake/bin/bcc.exe"
-      - "C:/Program Files/CMake/bin/bcc"
-      - "C:/Program Files/CMake/bin/xlc.com"
-      - "C:/Program Files/CMake/bin/xlc.exe"
-      - "C:/Program Files/CMake/bin/xlc"
-      - "C:/Program Files/CMake/bin/icx.com"
-      - "C:/Program Files/CMake/bin/icx.exe"
-      - "C:/Program Files/CMake/bin/icx"
-      - "C:/Program Files/CMake/bin/clang.com"
-      - "C:/Program Files/CMake/bin/clang.exe"
-      - "C:/Program Files/CMake/bin/clang"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/cc.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/cc.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/cc"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/gcc.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/gcc.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/gcc"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/cl.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/cl.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/cl"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/bcc.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/bcc.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/bcc"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/xlc.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/xlc.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/xlc"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/icx.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/icx.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/icx"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/clang.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/clang.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/clang"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/cc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/cc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/cc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/gcc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/gcc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/gcc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/cl"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/bcc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/bcc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/bcc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/xlc.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/xlc.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/xlc"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/icx.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/icx.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/icx"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/clang.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/clang.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/clang"
-      - "C:/msys64/ucrt64/bin/cc.com"
-    found: "C:/msys64/ucrt64/bin/cc.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
@@ -537,34 +93,38 @@ events:
     names:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
-    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+      - "C:/msys64/ucrt64/share/cmake/Modules/"
+    found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/msys64/ucrt64/bin/cc.exe 
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
       Build flags: 
       Id flags:  
       
@@ -580,8 +140,8 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_AR"
@@ -598,6 +158,7 @@ events:
       - "ar"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -616,25 +177,29 @@ events:
     found: "C:/msys64/ucrt64/bin/ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
@@ -651,6 +216,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -669,25 +235,29 @@ events:
     found: "C:/msys64/ucrt64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
@@ -704,6 +274,7 @@ events:
       - "strip"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -722,25 +293,29 @@ events:
     found: "C:/msys64/ucrt64/bin/strip.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
@@ -757,6 +332,7 @@ events:
       - "ld"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -775,25 +351,29 @@ events:
     found: "C:/msys64/ucrt64/bin/ld.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_NM"
@@ -810,6 +390,7 @@ events:
       - "nm"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -828,25 +409,29 @@ events:
     found: "C:/msys64/ucrt64/bin/nm.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
@@ -863,6 +448,7 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -881,25 +467,29 @@ events:
     found: "C:/msys64/ucrt64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
@@ -916,6 +506,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -934,25 +525,29 @@ events:
     found: "C:/msys64/ucrt64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
@@ -969,6 +564,7 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -987,25 +583,29 @@ events:
     found: "C:/msys64/ucrt64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
@@ -1022,6 +622,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -1040,25 +641,29 @@ events:
     found: "C:/msys64/ucrt64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
@@ -1075,6 +680,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -1093,25 +699,29 @@ events:
     found: "C:/msys64/ucrt64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
@@ -1128,6 +738,7 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -1145,6 +756,9 @@ events:
       - "C:/msys64/ucrt64/bin/tapi.com"
       - "C:/msys64/ucrt64/bin/tapi.exe"
       - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/msys64/usr/bin/tapi.com"
+      - "C:/msys64/usr/bin/tapi.exe"
+      - "C:/msys64/usr/bin/tapi"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/tapi.com"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/tapi"
@@ -1187,25 +801,29 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
@@ -1225,6 +843,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -1242,6 +861,9 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1"
+      - "C:/msys64/usr/bin/gcc-ar-16.1.com"
+      - "C:/msys64/usr/bin/gcc-ar-16.1.exe"
+      - "C:/msys64/usr/bin/gcc-ar-16.1"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar-16.1.com"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar-16.1.exe"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar-16.1"
@@ -1284,6 +906,9 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16"
+      - "C:/msys64/usr/bin/gcc-ar-16.com"
+      - "C:/msys64/usr/bin/gcc-ar-16.exe"
+      - "C:/msys64/usr/bin/gcc-ar-16"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar-16.com"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar-16.exe"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar-16"
@@ -1326,6 +951,9 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar16"
+      - "C:/msys64/usr/bin/gcc-ar16.com"
+      - "C:/msys64/usr/bin/gcc-ar16.exe"
+      - "C:/msys64/usr/bin/gcc-ar16"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar16.com"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar16.exe"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ar16"
@@ -1369,25 +997,29 @@ events:
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
@@ -1407,6 +1039,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -1424,6 +1057,9 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1"
+      - "C:/msys64/usr/bin/gcc-ranlib-16.1.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-16.1.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-16.1"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-16.1.com"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-16.1.exe"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-16.1"
@@ -1466,6 +1102,9 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16"
+      - "C:/msys64/usr/bin/gcc-ranlib-16.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-16.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-16"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-16.com"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-16.exe"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-16"
@@ -1508,6 +1147,9 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16"
+      - "C:/msys64/usr/bin/gcc-ranlib16.com"
+      - "C:/msys64/usr/bin/gcc-ranlib16.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib16"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib16.com"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib16.exe"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib16"
@@ -1551,27 +1193,31 @@ events:
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake:169 (enable_language)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake:48 (include)"
       - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
@@ -1588,6 +1234,8 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Windows/System32/"
@@ -1602,93 +1250,58 @@ events:
       - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/sbin/"
+      - "C:/msys64/ucrt64/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/bin/"
       - "C:/Program Files (x86)/sbin/"
       - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
       - "C:/Program Files (x86)/c_binary_protocol_crc/bin/"
       - "C:/Program Files (x86)/c_binary_protocol_crc/sbin/"
       - "C:/Program Files (x86)/c_binary_protocol_crc/"
     searched_directories:
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/windres.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/windres.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/windres"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.com"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.exe"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres"
-      - "C:/Windows/System32/windres.com"
-      - "C:/Windows/System32/windres.exe"
-      - "C:/Windows/System32/windres"
-      - "C:/Windows/windres.com"
-      - "C:/Windows/windres.exe"
-      - "C:/Windows/windres"
-      - "C:/Windows/System32/wbem/windres.com"
-      - "C:/Windows/System32/wbem/windres.exe"
-      - "C:/Windows/System32/wbem/windres"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
-      - "C:/Windows/System32/OpenSSH/windres.com"
-      - "C:/Windows/System32/OpenSSH/windres.exe"
-      - "C:/Windows/System32/OpenSSH/windres"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/windres.com"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/windres.exe"
-      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/windres"
-      - "C:/Program Files/PuTTY/windres.com"
-      - "C:/Program Files/PuTTY/windres.exe"
-      - "C:/Program Files/PuTTY/windres"
-      - "C:/Program Files/Git/cmd/windres.com"
-      - "C:/Program Files/Git/cmd/windres.exe"
-      - "C:/Program Files/Git/cmd/windres"
-      - "C:/Program Files/CMake/bin/windres.com"
-      - "C:/Program Files/CMake/bin/windres.exe"
-      - "C:/Program Files/CMake/bin/windres"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/windres.com"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/windres.exe"
-      - "C:/Users/Olegd/AppData/Local/Microsoft/WindowsApps/windres"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/windres.com"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/windres.exe"
-      - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin/windres"
       - "C:/msys64/ucrt64/bin/windres.com"
     found: "C:/msys64/ucrt64/bin/windres.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\WINDOWS\\system32"
+        - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:/WINDOWS/System32/Wbem"
         - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-        - "C:\\Program Files\\PuTTY\\"
+        - "C:/Program Files/PuTTY/"
         - "C:\\Program Files\\Git\\cmd"
-        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\Olegd\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\Olegd\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:/Users/Olegd/AppData/Local/Programs/Microsoft VS Code/bin"
         - "C:\\msys64\\ucrt64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/c_binary_protocol_crc"
       CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
+        - "C:/msys64/ucrt64"
         - "C:/Program Files (x86)/c_binary_protocol_crc"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-v8sk2v"
-      binary: "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-v8sk2v"
+      source: "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-3z66mv"
+      binary: "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-3z66mv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1697,19 +1310,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-v8sk2v'
+        Change Dir: 'D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-3z66mv'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_97ef7
-        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_94590
+        [1/2] C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev2, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97ef7.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97ef7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccv8hM5t.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_94590.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_94590.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDNbA7h.s
         GNU C23 (Rev2, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -1727,15 +1340,15 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 585f1c4de879ae5c89e079d9fa52e555
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97ef7.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccv8hM5t.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_94590.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDNbA7h.s
         GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj -o cmTC_97ef7.exe -Wl,--out-implib,libcmTC_97ef7.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj -o cmTC_94590.exe -Wl,--out-implib,libcmTC_94590.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
-        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
@@ -1744,19 +1357,19 @@ events:
         gcc version 16.1.0 (Rev2, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97ef7.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_97ef7.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDQLp3D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_97ef7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97ef7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94590.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_94590.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\cc4kSW2g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_94590.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_94590.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDQLp3D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_97ef7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97ef7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\cc4kSW2g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_94590.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_94590.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97ef7.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_97ef7.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94590.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_94590.'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -1775,26 +1388,26 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-v8sk2v']
+        ignore line: [Change Dir: 'D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/CMakeScratch/TryCompile-3z66mv']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_97ef7]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_94590]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev2  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97ef7.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97ef7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccv8hM5t.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_94590.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_94590.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDNbA7h.s]
         ignore line: [GNU C23 (Rev2  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1812,8 +1425,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 585f1c4de879ae5c89e079d9fa52e555]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97ef7.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccv8hM5t.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_94590.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDNbA7h.s]
         ignore line: [GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -1824,10 +1437,10 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj -o cmTC_97ef7.exe -Wl --out-implib libcmTC_97ef7.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj -o cmTC_94590.exe -Wl --out-implib libcmTC_94590.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev2, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
@@ -1843,13 +1456,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97ef7.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_97ef7.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDQLp3D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_97ef7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97ef7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_94590.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_94590.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\cc4kSW2g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_94590.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_94590.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDQLp3D.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\cc4kSW2g.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -1871,7 +1484,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_97ef7.exe] ==> ignore
+          arg [cmTC_94590.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -1881,9 +1494,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_97ef7.dll.a] ==> ignore
+          arg [libcmTC_94590.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1908,7 +1521,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\ccDQLp3D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_97ef7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_97ef7.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97ef7.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Olegd\\AppData\\Local\\Temp\\cc4kSW2g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_94590.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_94590.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_94590.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -1933,9 +1546,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
     message: |
       Running the C compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
