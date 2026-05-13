@@ -12,18 +12,17 @@ uint8_t crc8_calculate(const uint8_t *data, size_t length)
     {
         return 0;
     }
-    // ПОбітове виключаюче або 
 
-    for(size_t i = 0; i < length; i++) // Проходимо весі байти бувера
+    for(size_t i = 0; i < length; i++) 
     {
         crc = crc ^ data[i];    
-        for(uint8_t bit = 0; bit < 8; bit++)  // ПРоходимо кожен біт в байті
+        for(uint8_t bit = 0; bit < 8; bit++)  
         {
-            if((crc & 0x80) != 0)             // порівнюємо з 7 бітом
+            if((crc & 0x80) != 0)             
             {
-                crc = (uint8_t)((crc << 1) ^ CRC8_POLYNOMIAL);  // Додаєм поліном якщо останній байт був 1
+                crc = (uint8_t)((crc << 1) ^ CRC8_POLYNOMIAL);  // add polinome? if last bite was 1
             }
-            else        // Якщо останній байт був 0 просто зсуваємо
+            else        
             {
                 crc <<= 1;  
             }
