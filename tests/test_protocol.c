@@ -6,8 +6,6 @@
 #include "protocol_parser.h"
 #include "protocol.h"
 
-
-
 #include "assert.h"
 #include <stdio.h>
 
@@ -33,7 +31,7 @@ int main(void)
 
     // printf("CRC8 test passed\n");
 
-    /////////////////////////////////////// BUILD PACKET
+    ///////////////////////////////////// BUILD PACKET
     uint8_t payload[] = 
     {
         0x19,
@@ -44,8 +42,7 @@ int main(void)
     uint8_t packet[64] = {0,};
     size_t packet_len = 0;
 
-    bool status = protocol_build_packet(0x01, payload, sizeof(payload),
-    packet, sizeof(packet), &packet_len);
+    bool status = protocol_build_packet(0x01, payload, sizeof(payload), packet, sizeof(packet), &packet_len);
 
     assert(status == true);
 
@@ -57,17 +54,14 @@ int main(void)
     //////////////////////////////////////// PARSE PACKET
     protocol_packed_t parsed_packet;   
     bool parse_status = protocol_parse_packet(
-    packet, packet_len, &parsed_packet);
+        packet, packet_len, &parsed_packet);
 
     assert(parse_status == true);
     assert(parsed_packet.type == 0x01);
     assert(parsed_packet.payload_len == 3);
-
     assert(parsed_packet.payload[0] == 0x19);
     assert(parsed_packet.payload[1] == 0x32);
     assert(parsed_packet.payload[2] == 0x48);
-    
-
     printf("Packet parse test passed\n");
 
     //////////////////////////////////////// STREAM PARSER TEST

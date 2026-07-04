@@ -13,14 +13,14 @@ uint8_t crc8_calculate(const uint8_t *data, size_t length)
         return 0;
     }
 
-    for(size_t i = 0; i < length; i++) 
+    for(size_t i = 0; i < length; i++)     // all bytes 
     {
-        crc = crc ^ data[i];    
-        for(uint8_t bit = 0; bit < 8; bit++)  
+        crc = crc ^ data[i];                    // XOR
+        for(uint8_t bit = 0; bit < 8; bit++)    // do with all 8 bits
         {
-            if((crc & 0x80) != 0)             
+            if((crc & 0x80) != 0)           // Check the older bit (MSB). if bit was set?     
             {
-                crc = (uint8_t)((crc << 1) ^ CRC8_POLYNOMIAL);  // add polinome? if last bite was 1
+                crc = (uint8_t)((crc << 1) ^ CRC8_POLYNOMIAL);  // Shift left and apply the generator polinomial.
             }
             else        
             {

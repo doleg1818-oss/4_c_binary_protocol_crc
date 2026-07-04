@@ -1,0 +1,50 @@
+[
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\example_binary_protocol.dir\\example\\main.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\example\\main.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/example/main.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/example_binary_protocol.dir/example/main.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\example_binary_protocol.dir\\src\\crc8.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\src\\crc8.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/crc8.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/example_binary_protocol.dir/src/crc8.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\example_binary_protocol.dir\\src\\protocol_parser.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\src\\protocol_parser.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol_parser.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/example_binary_protocol.dir/src/protocol_parser.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\example_binary_protocol.dir\\src\\protocol.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\src\\protocol.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/example_binary_protocol.dir/src/protocol.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\test_binary_protocol.dir\\tests\\test_protocol.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\tests\\test_protocol.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/tests/test_protocol.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/test_binary_protocol.dir/tests/test_protocol.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\test_binary_protocol.dir\\src\\crc8.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\src\\crc8.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/crc8.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/test_binary_protocol.dir/src/crc8.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\test_binary_protocol.dir\\src\\protocol_parser.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\src\\protocol_parser.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol_parser.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/test_binary_protocol.dir/src/protocol_parser.c.obj"
+},
+{
+  "directory": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include -g -std=gnu99 -o CMakeFiles\\test_binary_protocol.dir\\src\\protocol.c.obj -c D:\\2.work\\4_education\\1_C\\4_c_binary_protocol_crc\\src\\protocol.c",
+  "file": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol.c",
+  "output": "D:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/CMakeFiles/test_binary_protocol.dir/src/protocol.c.obj"
+}
+]

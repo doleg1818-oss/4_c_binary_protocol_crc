@@ -7,14 +7,14 @@
 
 # =============================================================================
 # Project: c_binary_protocol_crc
-# Configurations: 
+# Configurations: Debug
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__example_binary_protocol_unscanned_
+rule C_COMPILER__example_binary_protocol_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\msys64\ucrt64\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule C_COMPILER__example_binary_protocol_unscanned_
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__example_binary_protocol_
+rule C_EXECUTABLE_LINKER__example_binary_protocol_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -33,7 +33,7 @@ rule C_EXECUTABLE_LINKER__example_binary_protocol_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__test_binary_protocol_unscanned_
+rule C_COMPILER__test_binary_protocol_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\msys64\ucrt64\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -43,7 +43,7 @@ rule C_COMPILER__test_binary_protocol_unscanned_
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__test_binary_protocol_
+rule C_EXECUTABLE_LINKER__test_binary_protocol_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\msys64\ucrt64\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT

@@ -76,7 +76,7 @@ bool protocol_parse_packet(const uint8_t *packet, size_t packet_len, protocol_pa
     uint8_t received_crc = packet[packet_len - 1];
     uint8_t calculated_crc = crc8_calculate(packet, packet_len - 1);
     
-    if(received_crc != calculated_crc)
+    if(received_crc != calculated_crc)      // Wrong CRC 
     {
         return false;
     }

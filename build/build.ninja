@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: c_binary_protocol_crc
-# Configurations: 
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -20,6 +20,11 @@
 
 ninja_required_version = 1.5
 
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -44,44 +49,40 @@ cmake_ninja_workdir = D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/
 
 build cmake_object_order_depends_target_example_binary_protocol: phony || .
 
-build CMakeFiles/example_binary_protocol.dir/example/main.c.obj: C_COMPILER__example_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/example/main.c || cmake_object_order_depends_target_example_binary_protocol
+build CMakeFiles/example_binary_protocol.dir/example/main.c.obj: C_COMPILER__example_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/example/main.c || cmake_object_order_depends_target_example_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\example_binary_protocol.dir\example\main.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\example_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\example_binary_protocol.dir\example
-  TARGET_COMPILE_PDB = CMakeFiles\example_binary_protocol.dir\
-  TARGET_PDB = example_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\example_binary_protocol.dir
 
-build CMakeFiles/example_binary_protocol.dir/src/crc8.c.obj: C_COMPILER__example_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/crc8.c || cmake_object_order_depends_target_example_binary_protocol
+build CMakeFiles/example_binary_protocol.dir/src/crc8.c.obj: C_COMPILER__example_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/crc8.c || cmake_object_order_depends_target_example_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\example_binary_protocol.dir\src\crc8.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\example_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\example_binary_protocol.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\example_binary_protocol.dir\
-  TARGET_PDB = example_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\example_binary_protocol.dir
 
-build CMakeFiles/example_binary_protocol.dir/src/protocol_parser.c.obj: C_COMPILER__example_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol_parser.c || cmake_object_order_depends_target_example_binary_protocol
+build CMakeFiles/example_binary_protocol.dir/src/protocol_parser.c.obj: C_COMPILER__example_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol_parser.c || cmake_object_order_depends_target_example_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\example_binary_protocol.dir\src\protocol_parser.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\example_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\example_binary_protocol.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\example_binary_protocol.dir\
-  TARGET_PDB = example_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\example_binary_protocol.dir
 
-build CMakeFiles/example_binary_protocol.dir/src/protocol.c.obj: C_COMPILER__example_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol.c || cmake_object_order_depends_target_example_binary_protocol
+build CMakeFiles/example_binary_protocol.dir/src/protocol.c.obj: C_COMPILER__example_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol.c || cmake_object_order_depends_target_example_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\example_binary_protocol.dir\src\protocol.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\example_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\example_binary_protocol.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\example_binary_protocol.dir\
-  TARGET_PDB = example_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\example_binary_protocol.dir
 
 
@@ -92,15 +93,16 @@ build CMakeFiles/example_binary_protocol.dir/src/protocol.c.obj: C_COMPILER__exa
 #############################################
 # Link the executable example_binary_protocol.exe
 
-build example_binary_protocol.exe: C_EXECUTABLE_LINKER__example_binary_protocol_ CMakeFiles/example_binary_protocol.dir/example/main.c.obj CMakeFiles/example_binary_protocol.dir/src/crc8.c.obj CMakeFiles/example_binary_protocol.dir/src/protocol_parser.c.obj CMakeFiles/example_binary_protocol.dir/src/protocol.c.obj
+build example_binary_protocol.exe: C_EXECUTABLE_LINKER__example_binary_protocol_Debug CMakeFiles/example_binary_protocol.dir/example/main.c.obj CMakeFiles/example_binary_protocol.dir/src/crc8.c.obj CMakeFiles/example_binary_protocol.dir/src/protocol_parser.c.obj CMakeFiles/example_binary_protocol.dir/src/protocol.c.obj
+  CONFIG = Debug
+  FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\example_binary_protocol.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\example_binary_protocol.dir\
   TARGET_FILE = example_binary_protocol.exe
   TARGET_IMPLIB = libexample_binary_protocol.dll.a
-  TARGET_PDB = example_binary_protocol.pdb
+  TARGET_PDB = example_binary_protocol.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\example_binary_protocol.dir
 
 # =============================================================================
@@ -112,44 +114,40 @@ build example_binary_protocol.exe: C_EXECUTABLE_LINKER__example_binary_protocol_
 
 build cmake_object_order_depends_target_test_binary_protocol: phony || .
 
-build CMakeFiles/test_binary_protocol.dir/tests/test_protocol.c.obj: C_COMPILER__test_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/tests/test_protocol.c || cmake_object_order_depends_target_test_binary_protocol
+build CMakeFiles/test_binary_protocol.dir/tests/test_protocol.c.obj: C_COMPILER__test_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/tests/test_protocol.c || cmake_object_order_depends_target_test_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\test_binary_protocol.dir\tests\test_protocol.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\test_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\test_binary_protocol.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\test_binary_protocol.dir\
-  TARGET_PDB = test_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test_binary_protocol.dir
 
-build CMakeFiles/test_binary_protocol.dir/src/crc8.c.obj: C_COMPILER__test_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/crc8.c || cmake_object_order_depends_target_test_binary_protocol
+build CMakeFiles/test_binary_protocol.dir/src/crc8.c.obj: C_COMPILER__test_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/crc8.c || cmake_object_order_depends_target_test_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\test_binary_protocol.dir\src\crc8.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\test_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\test_binary_protocol.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\test_binary_protocol.dir\
-  TARGET_PDB = test_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test_binary_protocol.dir
 
-build CMakeFiles/test_binary_protocol.dir/src/protocol_parser.c.obj: C_COMPILER__test_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol_parser.c || cmake_object_order_depends_target_test_binary_protocol
+build CMakeFiles/test_binary_protocol.dir/src/protocol_parser.c.obj: C_COMPILER__test_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol_parser.c || cmake_object_order_depends_target_test_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\test_binary_protocol.dir\src\protocol_parser.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\test_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\test_binary_protocol.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\test_binary_protocol.dir\
-  TARGET_PDB = test_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test_binary_protocol.dir
 
-build CMakeFiles/test_binary_protocol.dir/src/protocol.c.obj: C_COMPILER__test_binary_protocol_unscanned_ D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol.c || cmake_object_order_depends_target_test_binary_protocol
+build CMakeFiles/test_binary_protocol.dir/src/protocol.c.obj: C_COMPILER__test_binary_protocol_unscanned_Debug D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/src/protocol.c || cmake_object_order_depends_target_test_binary_protocol
+  CONFIG = Debug
   DEP_FILE = CMakeFiles\test_binary_protocol.dir\src\protocol.c.obj.d
-  FLAGS = -std=gnu99
+  FLAGS = -g -std=gnu99
   INCLUDES = -ID:/2.work/4_education/1_C/4_c_binary_protocol_crc/include
   OBJECT_DIR = CMakeFiles\test_binary_protocol.dir
   OBJECT_FILE_DIR = CMakeFiles\test_binary_protocol.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\test_binary_protocol.dir\
-  TARGET_PDB = test_binary_protocol.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test_binary_protocol.dir
 
 
@@ -160,15 +158,16 @@ build CMakeFiles/test_binary_protocol.dir/src/protocol.c.obj: C_COMPILER__test_b
 #############################################
 # Link the executable test_binary_protocol.exe
 
-build test_binary_protocol.exe: C_EXECUTABLE_LINKER__test_binary_protocol_ CMakeFiles/test_binary_protocol.dir/tests/test_protocol.c.obj CMakeFiles/test_binary_protocol.dir/src/crc8.c.obj CMakeFiles/test_binary_protocol.dir/src/protocol_parser.c.obj CMakeFiles/test_binary_protocol.dir/src/protocol.c.obj
+build test_binary_protocol.exe: C_EXECUTABLE_LINKER__test_binary_protocol_Debug CMakeFiles/test_binary_protocol.dir/tests/test_protocol.c.obj CMakeFiles/test_binary_protocol.dir/src/crc8.c.obj CMakeFiles/test_binary_protocol.dir/src/protocol_parser.c.obj CMakeFiles/test_binary_protocol.dir/src/protocol.c.obj
+  CONFIG = Debug
+  FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test_binary_protocol.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\test_binary_protocol.dir\
   TARGET_FILE = test_binary_protocol.exe
   TARGET_IMPLIB = libtest_binary_protocol.dll.a
-  TARGET_PDB = test_binary_protocol.pdb
+  TARGET_PDB = test_binary_protocol.exe.dbg
   TARGET_SUPPORT_DIR = CMakeFiles\test_binary_protocol.dir
 
 
@@ -218,14 +217,14 @@ build all: phony example_binary_protocol.exe test_binary_protocol.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/cmake_install.cmake: RERUN_CMAKE | C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/CMakeLists.txt
+build build.ninja D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/build/cmake_install.cmake: RERUN_CMAKE | C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/CMakeLists.txt: phony
+build C$:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Linker/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.3.2/CMakeCCompiler.cmake CMakeFiles/4.3.2/CMakeRCCompiler.cmake CMakeFiles/4.3.2/CMakeSystem.cmake D$:/2.work/4_education/1_C/4_c_binary_protocol_crc/CMakeLists.txt: phony
 
 
 #############################################

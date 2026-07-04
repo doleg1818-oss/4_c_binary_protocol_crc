@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-f040eec181a89de70dbe.json",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -21,7 +21,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -42,14 +42,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "example_binary_protocol::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-example_binary_protocol-87c740f2b898994d9368.json",
+					"jsonFile" : "target-example_binary_protocol-Debug-a88e380a4ab2d1aa2e10.json",
 					"name" : "example_binary_protocol",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_binary_protocol::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_binary_protocol-8828b7a92ea3921c727c.json",
+					"jsonFile" : "target-test_binary_protocol-Debug-406d503c81cbeaecf3ec.json",
 					"name" : "test_binary_protocol",
 					"projectIndex" : 0
 				}

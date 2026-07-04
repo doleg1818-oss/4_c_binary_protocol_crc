@@ -41,7 +41,7 @@ bool protocol_parser_process_byte(
                 parser -> index = 2;
                 parser -> state = PARSER_READ_LENGTH;
             }
-            else
+            else    // If will be wrong HEADER 2 than reset parser, and waite HEADER 1 again.
             {
                 parser -> state = PARSER_WAIT_HEADER_1;
                 parser -> index = 0;
